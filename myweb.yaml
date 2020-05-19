@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: saptaktw/endgame:latest
+      - image: prassud/endgame-jenkins-app:latest
         imagePullPolicy: Always
         name: myweb
 ---
